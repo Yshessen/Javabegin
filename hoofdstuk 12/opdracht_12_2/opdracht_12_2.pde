@@ -13,7 +13,7 @@ void draw(){
     racing = false;
   }
     fill(0,0,0);
-    text("spaties" + aantalSpaties, 200,200);
+    text("spaties = " + aantalSpaties, 200,200);
 }
 
 

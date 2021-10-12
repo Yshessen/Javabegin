@@ -1,10 +1,14 @@
-int teller= 0;
-boolean doorgaan= true; 
+int antwoord = 0;
+int getal1= 0;
+int getal2 = 1;
 
-while(doorgaan){ 
-  if(teller>20){
-    doorgaan = false;
-  }else{
-    teller++;
-  }
+println(0);
+println(1);
+
+for(int i = 0; i < 45; i++){
+  antwoord = getal1 + getal2; 
+  println(antwoord);
+  getal1 = getal2;
+  getal2= antwoord; 
+
 }
