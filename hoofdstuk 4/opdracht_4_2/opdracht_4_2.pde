@@ -8,11 +8,11 @@ int h= 10;
 int f= 38;
 int totaal=0;
 
-totaal= a%b;
+totaal= a*b;
 println(totaal);
-totaal= g%c;
+totaal= g*c;
 println(totaal);
-totaal=h%d;
+totaal=h*d;
 println(totaal);
-totaal = f%e;
+totaal = f*e;
 println(totaal);
